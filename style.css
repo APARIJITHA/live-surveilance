@@ -1,0 +1,33 @@
+body{
+    background-size: cover;
+}
+.heading{
+    font-size: 50px;
+    font-family: 'East Sea Dokdo', sans-serif;
+    width: 100%;
+    margin:0px;
+    box-shadow: 10px 10px 20px blue;
+}
+#start{
+    font-size: 30px;
+    font-family: 'Bacasime Antique', serif;;
+    font-variant-ligatures: historical-ligatures;
+}
+#number_of_objects,#status{
+    font-size: 20px;
+    font-variant-ligatures: historical-ligatures;
+}
+.copy_right_footer{
+    position:fixed;
+   color: rgb(0, 0, 0);
+   bottom:0;
+   width: 100%;
+   background-color: aquamarine;
+   line-height: 30px;
+   text-align:center;
+   }
+   canvas{
+    border:5px dashed rgb(0, 250, 250);
+    border-radius: 50px;
+    margin-top: 100px;
+   }
